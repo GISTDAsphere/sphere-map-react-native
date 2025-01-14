@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "paths": {
+        "gistda-sphere-react-native": ["./src/index"]
+      },
+      "target": "esnext",
+      "module": "esnext",
+      "lib": ["esnext"],
+      "jsx": "react-jsx",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "declaration": true,
+      "outDir": "./dist",
+      "rootDir": "./src"
+    },
+    "exclude": ["node_modules", "__tests__", "dist"]
+  }
