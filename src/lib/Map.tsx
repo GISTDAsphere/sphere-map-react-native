@@ -73,7 +73,6 @@ export default class MapView extends Component<MapViewProps> {
             onerror = (message, source, lineno, colno) => console.log(message + ' @ ' + source + '#L' + lineno + ':' + colno);
             
             map = new sphere.Map({
-              layer: parse(${JSON.stringify(this.props.layer)}),
               zoom: ${this.props.zoom},
               zoomRange: ${JSON.stringify(this.props.zoomRange)},
               location: ${JSON.stringify(this.props.location)},
